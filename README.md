@@ -14,11 +14,30 @@ git pull origin main
 # Alterando arquivo Readme.md
 vi readme.md
 
-Execução do Exercício.
+# Configurando Nome e email 
+git config --global user.name "Leandro Barbosa"
+git config --global user.email "lebarbosa@hotmail.com"
+
+
+
+# Execução do Exercício.
+
 
 # A- Criar Arquivo.txt com conteúdo 01. 
 echo 01 > arquivo.txt
 
 # B - Adicionar o arquivo no staging e conferir o status
 
+git add .
+git status
+
+lebarbos@LCB-PC:git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   arquivo.txt
+
+# C - Commitar o arquivo do staging com a descrição "git add example - arquivo.txt"
+
+git commit -m "git add example - arquivo.txt"
 
