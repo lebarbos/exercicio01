@@ -28,9 +28,10 @@ echo 01 > arquivo.txt
 
 # B - Adicionar o arquivo no staging e conferir o status
 
-git add .
-git status
+git add . \
+git status \
 
+Output \
 lebarbos@LCB-PC:git status
 On branch main
 Changes to be committed:
